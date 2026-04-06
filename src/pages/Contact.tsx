@@ -71,8 +71,8 @@ const Contact = () => {
                 <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-foreground">
                   <MessageCircle className="w-5 h-5 text-whatsapp" /> WhatsApp
                 </a>
-                <a href="mailto:sbjprintingpresa32@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-foreground">
-                  <Mail className="w-5 h-5 text-primary" /> sbjprintingpresa32@gmail.com
+                <a href="mailto:sbjprintingpress32@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-foreground">
+                  <Mail className="w-5 h-5 text-primary" /> sbjprintingpress32@gmail.com
                 </a>
                 <p className="flex items-center gap-3 text-muted-foreground">
                   <MapPin className="w-5 h-5 text-primary shrink-0" /> Main Market, India
