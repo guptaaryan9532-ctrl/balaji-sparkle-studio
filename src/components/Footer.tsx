@@ -29,7 +29,7 @@ const Footer = () => (
             <MessageCircle className="w-4 h-4" /> WhatsApp
           </a>
           <a href="mailto:sbjprintingpresa32@gmail.com" className="flex items-center gap-2 hover:opacity-100">
-            <Mail className="w-4 h-4" /> balajigraphics@gmail.com
+            <Mail className="w-4 h-4" /> sbjprintingpresa32@gmail.com
           </a>
           <p className="flex items-center gap-2">
             <MapPin className="w-4 h-4 shrink-0" /> Main Market, India
