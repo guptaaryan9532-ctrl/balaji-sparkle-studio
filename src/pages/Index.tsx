@@ -3,6 +3,7 @@ import { ArrowRight, Star, Phone, Users, Paintbrush, Clock, Award, ShieldCheck, 
 import { Button } from "@/components/ui/button";
 import ServiceCard from "@/components/ServiceCard";
 import AnimatedCounter from "@/components/AnimatedCounter";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import { services, portfolioItems, testimonials, PHONE, WHATSAPP_URL } from "@/data/services";
 import heroBanner from "@/assets/hero-banner.jpg";
 
@@ -124,6 +125,9 @@ const Index = () => (
         ))}
       </div>
     </section>
+
+    {/* Why Choose Us */}
+    <WhyChooseUs />
 
     {/* Services */}
     <section className="container py-16">
