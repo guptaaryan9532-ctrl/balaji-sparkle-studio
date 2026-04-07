@@ -1,7 +1,8 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Star, Phone } from "lucide-react";
+import { ArrowRight, Star, Phone, Users, Paintbrush, Clock, Award, ShieldCheck, Zap, ThumbsUp } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ServiceCard from "@/components/ServiceCard";
+import AnimatedCounter from "@/components/AnimatedCounter";
 import { services, portfolioItems, testimonials, PHONE, WHATSAPP_URL } from "@/data/services";
 import heroBanner from "@/assets/hero-banner.jpg";
 
@@ -15,6 +16,26 @@ const floatingLabels = [
   { text: "BROCHURE", top: "78%", left: "22%", delay: "0.6s" },
 ];
 
+const marqueeItems = [
+  "Logo Design", "Poster Design", "Banner & Flex", "Wedding Cards", "Visiting Cards",
+  "Social Media Posts", "Brochure Design", "Flyer Design", "Branding", "Packaging Design",
+  "Menu Card Design", "Invitation Cards",
+];
+
+const stats = [
+  { icon: Users, value: 500, suffix: "+", label: "Happy Clients" },
+  { icon: Paintbrush, value: 1000, suffix: "+", label: "Designs Delivered" },
+  { icon: Clock, value: 5, suffix: "+", label: "Years Experience" },
+  { icon: Award, value: 50, suffix: "+", label: "Business Partners" },
+];
+
+const trustBadges = [
+  { icon: ShieldCheck, text: "100% Satisfaction Guarantee" },
+  { icon: Zap, text: "Fast Turnaround" },
+  { icon: ThumbsUp, text: "Affordable Prices" },
+  { icon: Award, text: "Premium Quality" },
+];
+
 const Index = () => (
   <div>
     {/* Hero */}
@@ -24,7 +45,6 @@ const Index = () => (
         <div className="absolute inset-0 bg-foreground/70" />
       </div>
 
-      {/* Floating service labels */}
       {floatingLabels.map((label) => (
         <span
           key={label.text}
@@ -62,6 +82,46 @@ const Index = () => (
             </a>
           </Button>
         </div>
+      </div>
+    </section>
+
+    {/* Marquee Ticker */}
+    <section className="gradient-primary py-3 overflow-hidden">
+      <div className="flex animate-marquee whitespace-nowrap">
+        {[...marqueeItems, ...marqueeItems].map((item, i) => (
+          <span key={i} className="mx-6 text-sm font-semibold text-primary-foreground flex items-center gap-2">
+            <Star className="w-3 h-3 fill-current" /> {item}
+          </span>
+        ))}
+      </div>
+    </section>
+
+    {/* Stats / Counters */}
+    <section className="bg-foreground py-12">
+      <div className="container grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        {stats.map((stat) => (
+          <div key={stat.label} className="flex flex-col items-center gap-2">
+            <div className="p-3 rounded-full gradient-primary mb-1">
+              <stat.icon className="w-6 h-6 text-primary-foreground" />
+            </div>
+            <span className="text-3xl md:text-4xl font-black text-background">
+              <AnimatedCounter end={stat.value} suffix={stat.suffix} />
+            </span>
+            <span className="text-sm text-background/70 font-medium">{stat.label}</span>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    {/* Trust Badges */}
+    <section className="container py-10">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {trustBadges.map((badge) => (
+          <div key={badge.text} className="flex flex-col items-center gap-2 p-4 rounded-lg bg-muted text-center hover:shadow-card transition-shadow">
+            <badge.icon className="w-8 h-8 text-primary" />
+            <span className="text-sm font-semibold text-foreground">{badge.text}</span>
+          </div>
+        ))}
       </div>
     </section>
 
