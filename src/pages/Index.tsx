@@ -5,22 +5,52 @@ import ServiceCard from "@/components/ServiceCard";
 import { services, portfolioItems, testimonials, PHONE, WHATSAPP_URL } from "@/data/services";
 import heroBanner from "@/assets/hero-banner.jpg";
 
+const floatingLabels = [
+  { text: "LOGO", top: "18%", left: "5%", delay: "0s" },
+  { text: "BANNER", top: "55%", left: "3%", delay: "0.3s" },
+  { text: "FLYER", top: "12%", left: "22%", delay: "0.1s" },
+  { text: "ANIMATION", top: "28%", left: "14%", delay: "0.5s" },
+  { text: "BRANDING", top: "22%", left: "42%", delay: "0.2s" },
+  { text: "WEBSITE", top: "68%", left: "38%", delay: "0.4s" },
+  { text: "BROCHURE", top: "78%", left: "22%", delay: "0.6s" },
+];
+
 const Index = () => (
   <div>
     {/* Hero */}
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden min-h-[520px] md:min-h-[600px]">
       <div className="absolute inset-0">
         <img src={heroBanner} alt="Graphic Design Services" className="w-full h-full object-cover" />
-        <div className="absolute inset-0 bg-foreground/60" />
+        <div className="absolute inset-0 bg-foreground/70" />
       </div>
-      <div className="relative container py-20 md:py-32 text-center">
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-background mb-4 animate-fade-in-up">
-          Balaji Graphics
+
+      {/* Floating service labels */}
+      {floatingLabels.map((label) => (
+        <span
+          key={label.text}
+          className="absolute hidden md:block text-xs font-semibold tracking-widest text-background/50 animate-fade-in-up"
+          style={{ top: label.top, left: label.left, animationDelay: label.delay }}
+        >
+          {label.text}
+        </span>
+      ))}
+
+      <div className="relative container py-24 md:py-36 flex flex-col items-end text-right">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-background mb-2 animate-fade-in-up leading-tight">
+          CREATIVITY
         </h1>
-        <p className="text-lg md:text-xl text-background/90 mb-8 max-w-2xl mx-auto" style={{ animationDelay: "0.2s" }}>
-          Professional Graphic Design Services — Logos, Posters, Banners, Wedding Cards & More
+        <div className="flex gap-3 mb-4 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
+          <span className="text-3xl md:text-5xl lg:text-6xl font-black text-gold border-2 border-dashed border-gold px-3 py-1">
+            POWERED
+          </span>
+          <span className="text-3xl md:text-5xl lg:text-6xl font-black text-gold border-2 border-dashed border-gold px-3 py-1">
+            GROWTH
+          </span>
+        </div>
+        <p className="text-base md:text-lg text-background/80 mb-8 max-w-md animate-fade-in-up" style={{ animationDelay: "0.3s" }}>
+          Balaji Graphics — Professional Design Services for Logos, Posters, Banners, Wedding Cards & More
         </p>
-        <div className="flex flex-col sm:flex-row gap-3 justify-center" style={{ animationDelay: "0.4s" }}>
+        <div className="flex flex-col sm:flex-row gap-3 animate-fade-in-up" style={{ animationDelay: "0.45s" }}>
           <Button asChild size="lg" className="gradient-primary border-0 text-primary-foreground text-base">
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">
               Get Free Quote on WhatsApp
