@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import ServiceCard from "@/components/ServiceCard";
 import AnimatedCounter from "@/components/AnimatedCounter";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import ServicesShowcase from "@/components/ServicesShowcase";
 import { services, portfolioItems, testimonials, PHONE, WHATSAPP_URL } from "@/data/services";
 import heroBanner from "@/assets/hero-banner.jpg";
 
@@ -128,6 +129,9 @@ const Index = () => (
 
     {/* Why Choose Us */}
     <WhyChooseUs />
+
+    {/* Services Showcase */}
+    <ServicesShowcase />
 
     {/* Services */}
     <section className="container py-16">
