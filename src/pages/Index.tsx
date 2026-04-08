@@ -6,7 +6,7 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import ServicesShowcase from "@/components/ServicesShowcase";
 import { services, portfolioItems, testimonials, PHONE, WHATSAPP_URL } from "@/data/services";
-import heroBanner from "@/assets/hero-banner.jpg";
+import heroBanner from "@/assets/hero-banner.png";
 
 const floatingLabels = [
   { text: "LOGO", top: "18%", left: "5%", delay: "0s" },
