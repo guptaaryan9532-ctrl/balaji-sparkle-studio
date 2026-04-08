@@ -24,9 +24,9 @@ const marqueeItems = [
 ];
 
 const stats = [
-  { icon: Users, value: 500, suffix: "+", label: "Happy Clients" },
-  { icon: Paintbrush, value: 1000, suffix: "+", label: "Designs Delivered" },
-  { icon: Clock, value: 5, suffix: "+", label: "Years Experience" },
+  { icon: Users, value: 3481, suffix: "+", label: "Happy Clients" },
+  { icon: Paintbrush, value: 2000, suffix: "+", label: "Designs Delivered" },
+  { icon: Clock, value: 12, suffix: "+", label: "Years Experience" },
   { icon: Award, value: 50, suffix: "+", label: "Business Partners" },
 ];
 

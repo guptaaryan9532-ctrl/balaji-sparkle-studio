@@ -6,18 +6,18 @@ import workspace3 from "@/assets/workspace-3.jpg";
 const features = [
   {
     icon: Users,
-    title: "500+ Happy Clients",
-    description: "Our clients' happiness goes beyond mere satisfaction, creating an emotional bond that fosters long-term loyalty.",
+    title: "3481+ Happy Clients",
+    description: "Clients happiness goes beyond mere satisfaction, creating an emotional bond that fosters long-term loyalty.",
   },
   {
     icon: Award,
-    title: "5+ Years Excellence",
+    title: "12+ Years Excellence",
     description: "Marking a journey of creative excellence and trusted design solutions in the Indian market.",
   },
   {
     icon: ThumbsUp,
     title: "Work Satisfaction",
-    description: "Knowing your target audience and their needs is essential for building lasting clientele.",
+    description: "Knowing your target audience and their needs is essential for building clientele.",
   },
   {
     icon: Layers,
