@@ -43,8 +43,8 @@ const Index = () => (
     {/* Hero */}
     <section className="relative overflow-hidden min-h-[520px] md:min-h-[600px]">
       <div className="absolute inset-0">
-        <img src={heroBanner} alt="Graphic Design Services" className="w-full h-full object-cover object-left" />
-        <div className="absolute inset-0 bg-foreground/70" />
+        <img src={heroBanner} alt="Graphic Design Services" className="w-full h-full object-cover object-[30%_center]" />
+        <div className="absolute inset-0 bg-foreground/50" />
       </div>
 
       {floatingLabels.map((label) => (
