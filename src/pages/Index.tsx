@@ -6,7 +6,7 @@ import AnimatedCounter from "@/components/AnimatedCounter";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import ServicesShowcase from "@/components/ServicesShowcase";
 import { services, portfolioItems, testimonials, PHONE, WHATSAPP_URL } from "@/data/services";
-import heroBanner from "@/assets/hero-banner.png";
+import heroBanner from "@/assets/hero-banner.jpg";
 
 const floatingLabels = [
   { text: "LOGO", top: "18%", left: "5%", delay: "0s" },
@@ -43,7 +43,7 @@ const Index = () => (
     {/* Hero */}
     <section className="relative overflow-hidden min-h-[520px] md:min-h-[600px]">
       <div className="absolute inset-0">
-        <img src={heroBanner} alt="Graphic Design Services" className="w-full h-full object-cover" style={{ objectPosition: '35% center' }} />
+        <img src={heroBanner} alt="Graphic Design Services" className="w-full h-full object-cover object-left" />
         <div className="absolute inset-0 bg-foreground/70" />
       </div>
 
