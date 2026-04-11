@@ -49,9 +49,9 @@ export const services: Service[] = [
     icon: "Palette",
     image: portfolioLogos,
     pricing: [
-      { name: "Basic", price: "₹999", features: ["2 Logo Concepts", "2 Revisions", "JPG & PNG Files", "Delivery in 3 Days"] },
-      { name: "Standard", price: "₹2,499", features: ["5 Logo Concepts", "Unlimited Revisions", "All File Formats", "Source File", "Delivery in 2 Days"], popular: true },
-      { name: "Premium", price: "₹4,999", features: ["8 Logo Concepts", "Unlimited Revisions", "All File Formats", "Brand Guidelines", "Social Media Kit", "Priority Delivery"] },
+      { name: "Basic", price: "₹499", features: ["2 Logo Concepts", "2 Revisions", "JPG & PNG Files", "Delivery in 3 Days"] },
+      { name: "Standard", price: "₹999", features: ["5 Logo Concepts", "Unlimited Revisions", "All File Formats", "Source File", "Delivery in 2 Days"], popular: true },
+      { name: "Premium", price: "₹1,499", features: ["8 Logo Concepts", "Unlimited Revisions", "All File Formats", "Brand Guidelines", "Social Media Kit", "Priority Delivery"] },
     ],
   },
   {
