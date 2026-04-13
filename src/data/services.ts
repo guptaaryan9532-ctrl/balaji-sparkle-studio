@@ -114,9 +114,9 @@ export const services: Service[] = [
     icon: "CreditCard",
     image: portfolioCards,
     pricing: [
-      { name: "Basic", price: "₹399", features: ["1 Card Design", "Front Side Only", "2 Revisions", "Print-Ready File"] },
-      { name: "Standard", price: "₹799", features: ["2 Design Options", "Front & Back", "5 Revisions", "Source File"], popular: true },
-      { name: "Premium", price: "₹1,499", features: ["4 Design Options", "Front & Back", "Unlimited Revisions", "Letterhead Design", "Printing Coordination"] },
+      { name: "Basic", price: "₹199", features: ["1 Card Design", "Front Side Only", "2 Revisions", "Print-Ready File"] },
+      { name: "Standard", price: "₹299", features: ["2 Design Options", "Front & Back", "5 Revisions", "Source File"], popular: true },
+      { name: "Premium", price: "₹399", features: ["4 Design Options", "Front & Back", "Unlimited Revisions", "Letterhead Design", "Printing Coordination"] },
     ],
   },
   {
