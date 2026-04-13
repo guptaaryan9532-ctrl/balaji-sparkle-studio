@@ -202,11 +202,11 @@ const Index = () => (
         <p className="text-primary-foreground/90 mb-6 max-w-lg mx-auto">
           Get professional designs at affordable prices. Contact us today for a free quote!
         </p>
-        <div className="flex flex-col sm:flex-row gap-3 justify-center">
+        <div className="flex flex-col sm:flex-row gap-3 justify-center text-black">
           <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">WhatsApp Us Now</a>
           </Button>
-          <Button asChild size="lg" variant="outline" className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10">
+          <Button asChild size="lg" variant="outline" className="border-primary-foreground/40 hover:bg-primary-foreground/10 text-primary">
             <a href={`tel:+91${PHONE}`}><Phone className="w-4 h-4 mr-2" /> Call Now</a>
           </Button>
         </div>
