@@ -54,11 +54,11 @@ const ServiceDetail = () => {
         <div className="container text-center">
           <h3 className="text-xl font-bold text-primary-foreground mb-3">Need a Custom Package?</h3>
           <p className="text-primary-foreground/80 mb-6">Contact us for personalized pricing</p>
-          <div className="flex flex-col sm:flex-row gap-3 justify-center">
+          <div className="flex flex-col sm:flex-row gap-3 justify-center text-black bg-transparent">
             <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
               <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-primary-foreground/40 text-primary-foreground hover:bg-primary-foreground/10">
+            <Button asChild size="lg" variant="outline" className="text-primary-foreground hover:bg-primary-foreground/10 border-primary-foreground">
               <a href={`tel:+91${PHONE}`}><PhoneIcon className="w-4 h-4 mr-2" /> Call Us</a>
             </Button>
           </div>
