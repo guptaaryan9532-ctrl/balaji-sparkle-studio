@@ -78,7 +78,7 @@ const Index = () => (
               Get Free Quote on WhatsApp
             </a>
           </Button>
-          <Button asChild size="lg" variant="outline" className="border-background/40 text-background hover:bg-background/10">
+          <Button asChild size="lg" className="border-background/40 text-background hover:bg-background/10 bg-transparent border">
             <a href={`tel:+91${PHONE}`}>
               <Phone className="w-4 h-4 mr-2" /> Call {PHONE}
             </a>
