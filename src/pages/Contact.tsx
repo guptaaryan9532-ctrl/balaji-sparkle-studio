@@ -75,7 +75,7 @@ const Contact = () => {
                   <Mail className="w-5 h-5 text-primary" /> sbjprintingpress32@gmail.com
                 </a>
                 <p className="flex items-center gap-3 text-muted-foreground">
-                  <MapPin className="w-5 h-5 text-primary shrink-0" /> Main Market, India
+                  <MapPin className="w-5 h-5 text-primary shrink-0" /> Kanpur, India
                 </p>
               </div>
             </div>
