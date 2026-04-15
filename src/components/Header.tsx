@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
 import { PHONE } from "@/data/services";
-import balajiLogo from "@/assets/Balaji Logo.png";
+import balajiLogo from "@/assets/balaji-logo-new.png";
 
 const navLinks = [
   { to: "/", label: "Home" },

@@ -32,7 +32,7 @@ const Footer = () => (
             <Mail className="w-4 h-4" /> sbjprintingpress32@gmail.com
           </a>
           <p className="flex items-center gap-2">
-            <MapPin className="w-4 h-4 shrink-0" /> Main Market, India
+            <MapPin className="w-4 h-4 shrink-0" /> Kanpur, India
           </p>
         </div>
       </div>
