@@ -206,7 +206,7 @@ const Index = () => (
           <Button asChild size="lg" className="bg-background text-foreground hover:bg-background/90">
             <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer">WhatsApp Us Now</a>
           </Button>
-          <Button asChild size="lg" variant="outline" className="border-sidebar-primary hover:bg-primary-foreground/10 text-primary">
+          <Button asChild size="lg" variant="outline" className="border-sidebar-primary hover:bg-primary-foreground/10 text-black">
             <a href={`tel:+91${PHONE}`}><Phone className="w-4 h-4 mr-2" /> Call Now</a>
           </Button>
         </div>
