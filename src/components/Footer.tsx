@@ -7,7 +7,7 @@ const Footer = () => (
     <div className="container py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
         <h3 className="font-bold mb-3 text-3xl">Balaji Graphics</h3>
-        <p className="text-sm opacity-80">Professional Graphic Design Services<br />for businesses of all sizes. Quality designs<br />at affordable prices.</p>
+        <p className="text-sm opacity-80">Professional Graphic Design Services<br />for Businesses of all sizes. Quality Designs<br />at Affordable Prices.</p>
       </div>
       <div>
         <h4 className="font-semibold mb-3 text-xl">Quick Links</h4>
