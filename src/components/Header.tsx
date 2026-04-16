@@ -77,7 +77,7 @@ const Header = () => {
           {/* Desktop Call Button */}
           <a
             href={`tel:+91${PHONE}`}
-            className="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-bold text-white shadow-md hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-200"
+            className="hidden md:inline-flex items-center gap-2 px-4 py-2 rounded-xl font-bold text-white shadow-md hover:shadow-lg hover:scale-105 active:scale-95 transition-all duration-200 text-xl"
             style={{ background: "var(--gradient-primary)" }}
           >
             <Phone className="w-4 h-4" />
