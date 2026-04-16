@@ -58,7 +58,7 @@ const Index = () => (
       ))}
 
       <div className="relative container py-24 md:py-36 flex flex-col items-end text-right">
-        <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-background mb-2 animate-fade-in-up leading-tight">
+        <h1 className="text-4xl md:text-6xl font-black text-background mb-2 animate-fade-in-up leading-tight lg:text-9xl">
           CREATIVITY
         </h1>
         <div className="flex gap-3 mb-4 animate-fade-in-up" style={{ animationDelay: "0.15s" }}>
@@ -136,7 +136,7 @@ const Index = () => (
     {/* Services */}
     <section className="container py-16">
       <div className="text-center mb-10">
-        <h2 className="text-2xl md:text-3xl font-bold text-foreground">Our Services</h2>
+        <h2 className="text-2xl font-bold text-foreground md:text-4xl">Our Services</h2>
         <p className="text-muted-foreground mt-2">Quality design solutions for every need</p>
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -150,7 +150,7 @@ const Index = () => (
     <section className="bg-muted py-16">
       <div className="container">
         <div className="text-center mb-10">
-          <h2 className="text-2xl md:text-3xl font-bold">Our Work</h2>
+          <h2 className="text-2xl font-bold md:text-4xl">Our Work</h2>
           <p className="text-muted-foreground mt-2">Browse our latest designs</p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
@@ -177,7 +177,7 @@ const Index = () => (
     {/* Testimonials */}
     <section className="container py-16">
       <div className="text-center mb-10">
-        <h2 className="text-2xl md:text-3xl font-bold">What Our Clients Say</h2>
+        <h2 className="text-2xl font-bold md:text-4xl">What Our Clients Say</h2>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {testimonials.map((t) => (
@@ -198,7 +198,7 @@ const Index = () => (
     {/* CTA */}
     <section className="gradient-hero py-16">
       <div className="container text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-primary-foreground mb-4">Ready to Get Started?</h2>
+        <h2 className="text-2xl font-bold text-primary-foreground mb-4 md:text-5xl">Ready to Get Started?</h2>
         <p className="text-primary-foreground/90 mb-6 max-w-lg mx-auto">
           Get professional designs at affordable prices. Contact us today for a free quote!
         </p>

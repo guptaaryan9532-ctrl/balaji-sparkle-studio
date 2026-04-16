@@ -6,11 +6,11 @@ const Footer = () => (
   <footer className="bg-foreground text-background">
     <div className="container py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
       <div>
-        <h3 className="text-lg font-bold mb-3">Balaji Graphics</h3>
-        <p className="text-sm opacity-80">Professional Graphic Design Services for businesses of all sizes. Quality designs at affordable prices.</p>
+        <h3 className="font-bold mb-3 text-3xl">Balaji Graphics</h3>
+        <p className="text-sm opacity-80">Professional Graphic Design Services<br />for businesses of all sizes. Quality designs<br />at affordable prices.</p>
       </div>
       <div>
-        <h4 className="font-semibold mb-3">Quick Links</h4>
+        <h4 className="font-semibold mb-3 text-xl">Quick Links</h4>
         <div className="space-y-2 text-sm opacity-80">
           <Link to="/" className="block hover:opacity-100">Home</Link>
           <Link to="/services" className="block hover:opacity-100">Services</Link>
@@ -20,7 +20,7 @@ const Footer = () => (
         </div>
       </div>
       <div>
-        <h4 className="font-semibold mb-3">Contact Us</h4>
+        <h4 className="font-semibold mb-3 text-xl">Contact Us</h4>
         <div className="space-y-2 text-sm opacity-80">
           <a href={`tel:+91${PHONE}`} className="flex items-center gap-2 hover:opacity-100">
             <Phone className="w-4 h-4" /> +91 {PHONE}
