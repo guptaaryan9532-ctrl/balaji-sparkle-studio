@@ -57,7 +57,7 @@ const Index = () => (
         </span>
       ))}
 
-      <div className="relative container py-24 md:py-36 flex flex-col items-end text-right">
+      <div className="relative container py-24 md:py-36 flex flex-col items-end text-right pr-4 md:pr-16 lg:pr-24">
         <h1 className="text-4xl md:text-6xl font-black text-background mb-2 animate-fade-in-up leading-tight lg:text-9xl">
           CREATIVITY
         </h1>
