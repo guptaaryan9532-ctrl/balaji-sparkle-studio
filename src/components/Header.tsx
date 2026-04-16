@@ -55,7 +55,7 @@ const Header = () => {
               <Link
                 key={l.to}
                 to={l.to}
-                className={`relative px-4 py-2 text-sm font-semibold rounded-lg transition-all duration-200 group ${isActive
+                className={`relative px-4 py-2 text-base font-semibold rounded-lg transition-all duration-200 group ${isActive
                   ? "text-primary"
                   : "text-foreground/65 hover:text-foreground hover:bg-muted"
                   }`}
