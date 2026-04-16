@@ -56,7 +56,7 @@ const ServicesShowcase = () => (
     <div className="relative container">
       {/* Header */}
       <div className="text-center mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold text-background mb-3">
+        <h2 className="text-2xl font-bold text-background mb-3 md:text-4xl">
           We Offer a Wide Variety of Graphic Services
         </h2>
         <p className="text-background/70 max-w-2xl mx-auto text-sm md:text-base">
