@@ -2,6 +2,7 @@ import { useParams, Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import PricingCard from "@/components/PricingCard";
+import SEO from "@/components/SEO";
 import { services, WHATSAPP_URL, PHONE } from "@/data/services";
 import { Phone as PhoneIcon } from "lucide-react";
 
@@ -20,6 +21,11 @@ const ServiceDetail = () => {
 
   return (
     <div>
+      <SEO
+        title={`${service.title} – Affordable Pricing | Balaji Graphics`}
+        description={service.description.slice(0, 155)}
+        path={`/services/${service.id}`}
+      />
       {/* Hero */}
       <section className="relative h-64 md:h-80 overflow-hidden">
         <img src={service.image} alt={service.title} className="w-full h-full object-cover" />

@@ -33,6 +33,11 @@ const Contact = () => {
 
   return (
     <div>
+      <SEO
+        title="Contact Balaji Graphics – WhatsApp 9696583222 for Designs"
+        description="Get in touch with Balaji Graphics for logos, banners, wedding cards and more. Call or WhatsApp 9696583222 for fast quotes."
+        path="/contact"
+      />
       <section className="gradient-hero py-16">
         <div className="container text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-primary-foreground">Contact Us</h1>
