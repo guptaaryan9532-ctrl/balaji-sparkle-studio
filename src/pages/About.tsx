@@ -8,8 +8,15 @@ const stats = [
   { icon: Clock, label: "Years Experience", value: "5+" },
 ];
 
+import SEO from "@/components/SEO";
+
 const About = () => (
   <div>
+    <SEO
+      title="About Balaji Graphics – 12+ Years of Design Expertise"
+      description="Learn about Balaji Graphics, a trusted design studio with 12+ years experience helping 3000+ businesses with logos, banners and branding."
+      path="/about"
+    />
     <section className="gradient-hero py-16">
       <div className="container text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-primary-foreground">About Balaji Graphics</h1>

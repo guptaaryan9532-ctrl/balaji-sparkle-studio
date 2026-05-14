@@ -38,8 +38,15 @@ const trustBadges = [
   { icon: Award, text: "Premium Quality" },
 ];
 
+import SEO from "@/components/SEO";
+
 const Index = () => (
   <div>
+    <SEO
+      title="Balaji Graphics – Affordable Graphic Design Services in India"
+      description="Professional logo, poster, banner, wedding card and social media designs at affordable prices. 12+ years experience, 3000+ happy clients."
+      path="/"
+    />
     {/* Hero */}
     <section className="relative overflow-hidden min-h-[520px] md:min-h-[600px]">
       <div className="absolute inset-0">

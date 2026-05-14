@@ -7,6 +7,7 @@ import { Phone, MessageCircle, MapPin, Mail } from "lucide-react";
 import { PHONE, WHATSAPP_URL } from "@/data/services";
 import { toast } from "@/hooks/use-toast";
 import { z } from "zod";
+import SEO from "@/components/SEO";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
@@ -32,6 +33,11 @@ const Contact = () => {
 
   return (
     <div>
+      <SEO
+        title="Contact Balaji Graphics – WhatsApp 9696583222 for Designs"
+        description="Get in touch with Balaji Graphics for logos, banners, wedding cards and more. Call or WhatsApp 9696583222 for fast quotes."
+        path="/contact"
+      />
       <section className="gradient-hero py-16">
         <div className="container text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-primary-foreground">Contact Us</h1>
