@@ -7,6 +7,7 @@ import { Phone, MessageCircle, MapPin, Mail } from "lucide-react";
 import { PHONE, WHATSAPP_URL } from "@/data/services";
 import { toast } from "@/hooks/use-toast";
 import { z } from "zod";
+import SEO from "@/components/SEO";
 
 const contactSchema = z.object({
   name: z.string().trim().min(1, "Name is required").max(100),
