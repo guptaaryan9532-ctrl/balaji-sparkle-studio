@@ -1,7 +1,13 @@
 import { portfolioItems } from "@/data/services";
+import SEO from "@/components/SEO";
 
 const Portfolio = () => (
   <div className="container py-12">
+    <SEO
+      title="Design Portfolio – Logos, Banners & Cards | Balaji Graphics"
+      description="Browse our portfolio of logos, posters, banners, wedding cards and social media designs crafted for businesses across India."
+      path="/portfolio"
+    />
     <div className="text-center mb-10">
       <h1 className="text-3xl font-bold">Our Portfolio</h1>
       <p className="text-muted-foreground mt-2">Browse our recent work</p>
