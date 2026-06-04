@@ -6,7 +6,7 @@ interface SEOProps {
   path: string;
 }
 
-const BASE_URL = "https://balajigrahics.lovable.app";
+const BASE_URL = "https://balajigraphics.lovable.app";
 
 const SEO = ({ title, description, path }: SEOProps) => {
   const url = `${BASE_URL}${path}`;
