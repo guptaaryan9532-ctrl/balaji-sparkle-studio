@@ -3,9 +3,9 @@ import { WHATSAPP_URL, PHONE } from "@/data/services";
 import { Phone, Users, Award, Clock } from "lucide-react";
 
 const stats = [
-  { icon: Users, label: "Happy Clients", value: "500+" },
+  { icon: Users, label: "Happy Clients", value: "3481+" },
   { icon: Award, label: "Designs Delivered", value: "2000+" },
-  { icon: Clock, label: "Years Experience", value: "5+" },
+  { icon: Clock, label: "Years Experience", value: "12+" },
 ];
 
 import SEO from "@/components/SEO";
@@ -13,35 +13,32 @@ import SEO from "@/components/SEO";
 const About = () => (
   <div>
     <SEO
-      title="About Balaji Graphics – 12+ Years of Design Expertise"
-      description="Learn about Balaji Graphics, a trusted design studio with 12+ years experience helping 3000+ businesses with logos, banners and branding."
+      title="About Balaji Graphics – Printing & Design Studio in Kanpur"
+      description="Balaji Graphics is a trusted printing and graphic design studio based in Barra, Kanpur. We deliver professional branding, printing, and design solutions for businesses of all sizes."
       path="/about"
     />
     <section className="gradient-hero py-16">
       <div className="container text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-primary-foreground">About Balaji Graphics</h1>
         <p className="text-primary-foreground/80 mt-3 max-w-2xl mx-auto">
-          Your trusted partner for professional graphic design services
+          Your trusted printing and graphic design partner in Barra, Kanpur
         </p>
       </div>
     </section>
 
     <section className="container py-12">
-      <div className="max-w-3xl mx-auto space-y-6 text-muted-foreground">
+      <div className="max-w-3xl mx-auto space-y-6 text-muted-foreground leading-relaxed">
         <p>
-          <strong className="text-foreground">Balaji Graphics</strong> is a professional graphic design studio dedicated to
-          helping businesses stand out with stunning visual designs. Based in India, we specialize in creating logos,
-          posters, banners, wedding cards, visiting cards, social media designs, and all types of promotional graphics.
+          <strong className="text-foreground">Balaji Graphics</strong> is a trusted printing and graphic design studio based in Barra, Kanpur, dedicated to helping businesses, startups, and individuals create a strong visual identity. We combine creative design expertise with premium-quality printing to deliver professional branding solutions that leave a lasting impression.
         </p>
         <p>
-          We understand the needs of small and medium businesses. Our goal is to provide world-class design quality at
-          prices that every business can afford. Whether you need a simple visiting card or a complete branding package,
-          we deliver exceptional results every time.
+          We specialize in logo design, visiting cards, bill books, pamphlets, brochures, flex banners, stickers, ID cards, wedding invitation cards & videos, social media creatives, packaging designs, and customized promotional materials. Whether you need commercial printing, business branding, or personalized designs, Balaji Graphics provides complete end-to-end solutions under one roof.
         </p>
         <p>
-          Our team combines creativity with the latest design trends to create visuals that not only look great but also
-          drive results for your business. Fast turnaround, unlimited revisions on premium packages, and dedicated customer
-          support make us the preferred choice for hundreds of satisfied clients.
+          Our experienced team follows the latest design trends and uses high-quality printing technology to ensure every product reflects professionalism, creativity, and attention to detail. From a single visiting card to complete business branding, we deliver outstanding quality with affordable pricing, fast turnaround times, and dependable customer support.
+        </p>
+        <p>
+          At Balaji Graphics, our mission is to provide world-class design and printing services that help businesses grow, strengthen their brand identity, and make a lasting impact. With a commitment to creativity, precision, and customer satisfaction, we have become a preferred choice for clients across Kanpur seeking reliable, high-quality graphic design and printing solutions.
         </p>
       </div>
     </section>
